@@ -1,6 +1,6 @@
 /**
  * 3. Longest Substring Without Repeating Characters
- * 
+ *
  * Given a string s, find the length of the longest substring without repeating characters.
  */
 
@@ -21,13 +21,4 @@ export const lengthOfLongestSubstring = (s: string): number => {
   }
 
   return maxLength;
-}
-
-const result1 = lengthOfLongestSubstring('abcabcbb'); // 3
-console.log(result1);
-
-const result2 = lengthOfLongestSubstring('bbbbb'); // 1
-console.log(result2);
-
-const result3 = lengthOfLongestSubstring('pwwkew'); // 3
-console.log(result3);
+};

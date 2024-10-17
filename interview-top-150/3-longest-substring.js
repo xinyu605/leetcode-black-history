@@ -23,9 +23,3 @@ var lengthOfLongestSubstring = function (s) {
     return maxLength;
 };
 exports.lengthOfLongestSubstring = lengthOfLongestSubstring;
-var result1 = (0, exports.lengthOfLongestSubstring)('abcabcbb'); // 3
-console.log(result1);
-var result2 = (0, exports.lengthOfLongestSubstring)('bbbbb'); // 1
-console.log(result2);
-var result3 = (0, exports.lengthOfLongestSubstring)('pwwkew'); // 3
-console.log(result3);
