@@ -28,7 +28,7 @@
  * Constraints: 1 <= num <= 3999
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.intToRoman = void 0;
+exports.betterIntoRoman = exports.intToRoman = void 0;
 var intToRoman = function (num) {
     if (num < 1 || num > 3999)
         return '';
@@ -79,10 +79,6 @@ var intToRoman = function (num) {
     return result;
 };
 exports.intToRoman = intToRoman;
-var result1 = (0, exports.intToRoman)(3749); // "MMMDCCXLIX"
-var result2 = (0, exports.intToRoman)(58); // "LVIII"
-var result3 = (0, exports.intToRoman)(1994); // "MCMXCIV"
-console.log({ result1: result1, result2: result2, result3: result3 });
 /** Optimization */
 var betterIntoRoman = function (num) {
     if (num < 1 || num > 3999)
@@ -113,7 +109,4 @@ var betterIntoRoman = function (num) {
     });
     return result;
 };
-var result4 = betterIntoRoman(3749);
-var result5 = betterIntoRoman(58);
-var result6 = betterIntoRoman(1994);
-console.log({ result4: result4, result5: result5, result6: result6 });
+exports.betterIntoRoman = betterIntoRoman;
