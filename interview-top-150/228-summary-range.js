@@ -14,9 +14,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.summaryRange = void 0;
 var summaryRange = function (nums) {
-    if (!nums.length) {
-        throw new Error('Array cannot be empty!');
-    }
+    if (!nums.length)
+        return [];
     var start = nums[0];
     var result = [];
     var updateResult = function (start, end) {
@@ -35,7 +34,3 @@ var summaryRange = function (nums) {
     return result;
 };
 exports.summaryRange = summaryRange;
-var result1 = (0, exports.summaryRange)([0, 1, 2, 4, 5, 7]); // ['0->2', '4->5', '7']
-console.log(result1);
-var result2 = (0, exports.summaryRange)([0, 2, 3, 4, 6, 8, 9]);
-console.log(result2);
