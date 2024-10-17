@@ -1,3 +1,4 @@
+"use strict";
 /**
  * 55. Jump Game
  *
@@ -5,6 +6,8 @@
  * You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
  * Return true if you can reach the last index, or false otherwise.
  */
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.canJump = void 0;
 var canJump = function (nums) {
     var maxReach = 0;
     var length = nums.length;
@@ -17,7 +20,4 @@ var canJump = function (nums) {
     }
     return false;
 };
-var result1 = canJump([2, 3, 1, 1, 4]);
-console.log(result1);
-var result2 = canJump([3, 2, 1, 0, 4]);
-console.log(result2);
+exports.canJump = canJump;
