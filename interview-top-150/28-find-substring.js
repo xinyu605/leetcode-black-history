@@ -19,7 +19,3 @@ var strStr = function (haystack, needle) {
     return -1;
 };
 exports.strStr = strStr;
-var result1 = (0, exports.strStr)('sadbutsad', 'sad'); // 0
-console.log(result1);
-var result2 = (0, exports.strStr)('leetcode', 'leeto'); // -1
-console.log(result2);
