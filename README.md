@@ -1,8 +1,8 @@
-# TypeScript-Course
+# LeetCode Black History
+
+:new_moon_with_face: Keep coding. Keep optimizing. <br/>
+:full_moon_with_face: The record might be ugly but useful for progressing!
 
 ## Reference
-- Academind https://www.youtube.com/watch?v=BwuLxPH8IDs&t=5790s&ab_channel=Academind
 
-## Execution
-- `npm start` localhost:3000 (lite-server)
-- `tsc -w`
+- [Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
