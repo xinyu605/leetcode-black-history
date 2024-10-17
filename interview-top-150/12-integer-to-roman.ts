@@ -87,12 +87,6 @@ export const intToRoman = (num: number) => {
   return result;
 };
 
-const result1 = intToRoman(3749); // "MMMDCCXLIX"
-const result2 = intToRoman(58); // "LVIII"
-const result3 = intToRoman(1994); // "MCMXCIV"
-
-console.log({ result1, result2, result3 });
-
 /** Optimization */
 export const betterIntoRoman = (num: number) => {
   if (num < 1 || num > 3999) return '';
@@ -125,9 +119,3 @@ export const betterIntoRoman = (num: number) => {
 
   return result;
 };
-
-const result4 = betterIntoRoman(3749);
-const result5 = betterIntoRoman(58);
-const result6 = betterIntoRoman(1994);
-
-console.log({ result4, result5, result6 });
